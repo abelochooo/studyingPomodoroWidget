@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(228, 55, 55);
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+}
+
+#title{
+    color: white;
+    font-family: "Elms Sans", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 2rem;
+    transition: text-shadow 1s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+#title:hover{
+    text-shadow: -4px 5px 0 #a30e0e,-4px 4px 0 #a30e0e,-4px 3px 0 #a30e0e,-4px 2px 0 #a30e0e,-4px 1px 0 #a30e0e;
+}
+
+#imagenPomodoro{
+    position: absolute;
+    margin-top: 4rem;
+    align-self: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    margin-top: 75%;
+}
+
+.botones button{
+    width: 30%;
+    height: 10vh;
+    background-color: #851f1f4b;
+    border: 2px solid #8f09092d;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #640606;
+    transition: text-shadow 1s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botones button:hover{
+    text-shadow: 1px 1px 10px #720a0aa8;
+}
+
+#cronometro{
+    position: absolute;
+    top: 25%;
+    font-size: 70px;
+    left: 28%;
+    font-weight: 100;
+    color: rgb(133, 8, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::selection{
+    background-color: transparent;
+}
